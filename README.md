@@ -46,7 +46,7 @@ Databento API → Parquet Files → Rust Processor → Heatmap Visualization
 ### Dataset Characteristics
 - **Source**: Databento MBO data (ES Futures)
 - **Size**: 7,449,892 records
-- **Timespan**: June 27, 2025 (12:58 - 21:00 UTC)  
+- **Timespan**: June 27, 2025 (12:58 - 20:00 UTC)  
 - **Format**: Parquet (columnar storage)
 
 ### Sample Data Structure
