@@ -9,7 +9,7 @@ Ultra-fast Rust implementation for processing Market-By-Order (MBO) financial da
 ## Performance Highlights
 
 - **33 seconds** to process 7.4M records (220K records/second)
-- **50% performance improvement** through systematic optimization
+- **100% speedup (2x faster)** through systematic optimization
 - **157% CPU utilization** with multi-core parallelization
 - **Memory efficient** processing with ~2GB peak usage
 
@@ -72,8 +72,8 @@ ts_event                    | action | side | price   | size | order_id      | i
 ### Optimization Journey
 1. **Baseline**: 66.1 seconds (single-thread, 1K batches)
 2. **Batch optimization**: 62.1 seconds (4K batches) → 6% improvement
-3. **Parallel processing**: 36.2 seconds (multi-core) → 42% improvement
-4. **Final tuning**: 33.3 seconds (8K batches) → 50% total improvement
+3. **Parallel processing**: 36.2 seconds (multi-core) → 45% improvement
+4. **Final tuning**: 33.3 seconds (8K batches) → 100% speedup (2x faster)
 
 **Results:**
 - CPU utilization: 85% → 157% (effective multi-core usage)
@@ -121,7 +121,7 @@ Orderbook snapshots are captured at event boundaries (is_last=1), creating a tim
 **Performance Engineering:**
 - Systematic optimization methodology
 - Multi-core computing with 157% CPU utilization
-- 50% performance improvement through iteration
+- 100% speedup (2x faster) through iteration
 
 ## Portfolio Value
 
