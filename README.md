@@ -15,7 +15,7 @@ Ultra-fast Rust implementation for processing Market-By-Order (MBO) financial da
 
 ## Project Overview
 
-This project processes Market-By-Order data from Databento API (exported as Parquet files) to generate temporal orderbook heatmap visualizations. The implementation demonstrates high-performance systems programming in Rust with focus on parallel computing and financial data processing.
+This project processes Market-By-Order data from Databento API to generate temporal orderbook heatmap visualizations. The implementation demonstrates high-performance systems programming in Rust with focus on parallel computing and financial data processing.
 
 ### Sample Output
 
